@@ -1,0 +1,29 @@
+{
+  "name": "jquery-bg-pexels",
+  "version": "0.0.0-development",
+  "description": "JQuery plugin to change background from Pexels",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronlopz/jquery-bg-pexels.git"
+  },
+  "keywords": [
+    "jquery",
+    "plugin",
+    "cover",
+    "fullpage",
+    "pexels"
+  ],
+  "author": "Aaron Lopez <aaronlo2012@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronlopz/jquery-bg-pexels/issues"
+  },
+  "homepage": "https://github.com/aaronlopz/jquery-bg-pexels#readme",
+  "devDependencies": {
+    "eslint": "4.16.0"
+  }
+}
