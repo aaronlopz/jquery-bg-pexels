@@ -24,6 +24,10 @@
   },
   "homepage": "https://github.com/aaronlopz/jquery-bg-pexels#readme",
   "devDependencies": {
-    "eslint": "4.16.0"
-  }
+    "eslint": "4.16.0",
+    "pre-commit": "1.2.2"
+  },
+  "pre-commit":[
+    "test"
+  ]
 }
