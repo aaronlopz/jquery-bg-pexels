@@ -8,7 +8,6 @@
 (function($){
 
   $.fn.bgUnsplash = function(){
-    /* console.log('here') */
     $(this).css({
       width:'100%',
       height: '100vh',
