@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/aaronlopz/jquery-bg-pexels#readme",
   "devDependencies": {
+    "dotenv": "4.0.0",
     "eslint": "4.16.0",
     "expect.js": "0.3.1",
     "jquery": "3.3.1",

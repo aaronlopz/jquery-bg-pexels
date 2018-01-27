@@ -1,3 +1,4 @@
+require('dotenv').config();
 var expect = require('expect.js');
 var jsdom = require('jsdom');
 
@@ -8,10 +9,10 @@ require('jsdom-global')();
 require('../src');
 
 var $section;
-
+var clientId = process.env.CLIENT_ID;
 describe('jquery-bg-pexels', function(){
   beforeEach(function(){
-    window.BgPexels.setup('d2034284409ef335282ee5191ba0298788f1f7ae2db7b729ef5afcd9ef3f3bb7');
+    window.BgPexels.setup(clientId);
     $section = $('section');
   });
 
@@ -38,9 +39,9 @@ describe('jquery-bg-pexels', function(){
     expect($section.css('backgroundSize')).to.be('contain');
   });
 
-  /* it('should set client id attr', function(){
-    expect(window.BgPexels.clientId).to.be('123');
-  }); */
+  it('should set client id attr', function(){
+    expect(window.BgPexels.clientId).to.be(clientId);
+  });
 
   it('Should set a random image from Unsplash',function(){
     return $section.BgPexels({
