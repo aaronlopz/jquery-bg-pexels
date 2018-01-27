@@ -7,7 +7,7 @@
 
 (function($){
 
-  $.fn.bgUnsplash = function(){
+  $.fn.pexels = function(){
     $(this).css({
       width:'100%',
       height: '100vh',

@@ -8,10 +8,10 @@ require('../src');
 
 var $section;
 
-describe('jquery-bg-unsplash', function(){
+describe('jquery-bg-pexels', function(){
   beforeEach(function(){
     $section = $('section');
-    $section.bgUnsplash();
+    $section.pexels();
   });
 
   it('should have a width of 100%',function(){
