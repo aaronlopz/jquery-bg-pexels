@@ -6,7 +6,8 @@
   "scripts": {
     "pretest": "eslint src",
     "test": "nyc mocha",
-    "test:watch": "mocha --watch"
+    "test:watch": "mocha --watch",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/aaronlopz/jquery-bg-pexels#readme",
   "devDependencies": {
+    "codecov": "3.0.0",
     "dotenv": "4.0.0",
     "eslint": "4.16.0",
     "expect.js": "0.3.1",
